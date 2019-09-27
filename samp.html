@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>詳細ばってん</title>
+    <link rel="stylesheet">
+  </head>
+  <body>
+    <div class="hidden_box">
+    <label for="label1">クリックして表示</label>
+    <input type="checkbox" id="label1"/>
+    <div class="hidden_show">
+      <!--非表示ここから-->
+      	<p><ul>
+              <li>aaa</li>
+              <li>bbb</li>
+          </ul>
+        </p>
+      <!--ここまで-->
+    </div>
+</div>
+  </body>
+</html>
+<style>
+/*全体*/
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 15px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+</style>
