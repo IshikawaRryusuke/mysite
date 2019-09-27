@@ -1,0 +1,94 @@
+@charset "UTF-8";
+html{
+  margin:0px 15%;
+  /*background-image: url(../img/背景.jpg);*/
+
+}
+
+h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+
+.icon{
+  width:100%;
+}
+
+section{
+  margin: 50px 0px;
+}
+
+.title{
+  margin-left: 20px;
+  color: lightgreen;
+}
+
+.text{
+  margin-left: 10px;
+}
+
+#sheep{
+  margin-left: 5%;
+  border: 5px solid pink;
+  width: 70%;
+  float: left;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#why{
+  margin-right: 5%;
+  border: 5px solid lightgreen;
+  width: 80%;
+  float: right;
+}
+
+#why .title{
+  color: lightpink;
+}
+
+#message1{
+  margin-left: 5%;
+  border: 5px solid pink;
+  width: 80%;
+  float: left;
+}
+
+#message2{
+  margin-right: 5%;
+  border: 5px solid lightgreen;
+  width: 80%;
+  float: right;
+}
+
+#message2 .title{
+  color: lightpink;
+}
+
+#last{
+  margin-left: 5%;
+  width: 80%;
+  float: left;
+}
+
+#last .title{
+  color: lightpink;
+}
+
+.twitter-follow-button{
+  width: 25%;
+  height: 80px;
+  margin: 20px
+}
+
+@media screen and (max-width:480px;) {
+  html{
+    margin: 0px 5%;
+  }
+}
