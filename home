@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>株式会社YaY</title>
+  <meta name="descpription" content="株式会社YaYの会社ホームページです。">
+  <meta name="keywords" content="株式会社YaY,YaY inc.,sheep,土屋 皇,">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <link rel="stylesheet" href="css/style.css" media="all">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <header>
+    <img class="logo" src="./img/logo1.png" alt="">
+    <div class="company-name">YaY Inc.</div>
+  </header>
+
+  <section id="top">
+    <article class="top-text">
+      <div id="text-left">理想を現実に</div>
+      <div id="text-right">Realize The ideal</div>
+    </article>
+  </section>
+
+  <section id="service">
+    <h2 class="title">Service</h2>
+    <div class="service-img">
+      <img class="service-pic" src="./img/icon.JPG" alt="">
+    </div>
+    <p class="service-coment">マッチングアプリ<span>”sheep”</span>は性的嗜好（性癖・フェチ）によるマッチングを提供します。</p>
+
+    <p class="service-page"> <a class="page" href="sheep.html">サービスページへ！</a> </p>
+  </section>
+
+  <section id="team">
+    <h2 class="title">Team</h2>
+    <div class="member">
+      <div class="team">
+        <img class="personal-img" src="./img/team1.jpeg" alt="">
+        <div class="personal-file1">
+          <div class="position">代表取締役</div>
+          <div class="name">土屋皇</div>
+          <div class="SNS">
+            <a class="Twitter" href="">Twitter</a>
+            <a class="Facebook" href="">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team">
+        <img class="personal-img" src="./img/team2.JPG" alt="">
+        <div class="personal-file2">
+          <div class="position">Engineer</div>
+          <div class="name">石川隆介</div>
+          <div class="SNS">
+            <a class="Twitter" href="">Twitter</a>
+            <a class="Facebook" href="">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="company">
+    <h2 class="title">Company</h2>
+      <table align="center">
+        <tr class="company-name2">
+          <td class="left">会社名</td>
+          <td>株式会社YaY</td>
+        </tr>
+
+        <tr class="seturitu">
+          <td class="left">設立日</td>
+          <td>2019年9月13日</td>
+        </tr>
+
+        <tr class="ceo">
+          <td class="left">代表</td>
+          <td>土屋皇</td>
+        </tr>
+
+        <tr class="phone">
+          <td class="left">代表番号</td>
+          <td>070-2666-0404</td>
+        </tr>
+
+        <tr class="busines">
+          <td class="left">事業内容</td>
+          <td>webの受託開発 <br> 自社アプリ開発・運営 </td>
+        </tr>
+
+        <tr class="rinen">
+          <td class="left">企業理念</td>
+          <td>理想を現実に</td>
+        </tr>
+
+      </table>
+
+  </section>
+
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+      <p>お問い合わせは全て弊社SNSのDMにて承ります。</p>
+      <a class="Twitter" href="https://twitter.com/YaY_2019">Twitter</a>
+      <a class="Facebook" href="https://www.facebook.com/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEYaY-111102453600146/">Facebook</a>
+  </section>
+
+
+  <footer>
+    <p class="footer">Copyright © YaY, Inc. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
