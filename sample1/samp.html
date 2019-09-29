@@ -5,7 +5,6 @@
     <title>自己紹介</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -36,13 +35,7 @@
       <h3>wwwwwwwwwwwwwwwwwwwwwwwwwww</h3>
 
     </div>
-    <div id="slide">
-      <ul>
-      <li><a href=""><img src="https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg" alt="" width="1040" height="1000" /></a></li>
-      <li><a href=""><img src="https://www.pakutaso.com/shared/img/thumb/KAZ76_nemof01_TP_V.jpg" alt="" width="1040" height="1000" /></a></li>
-      <li><a href=""><img src="https://www.pakutaso.com/shared/img/thumb/KAZUKIhgfdrfgh_TP_V.jpg" alt="" width="1040" height="1000" /></a></li>
-      </ul>
-    </div>
+
     <footer>
       <textarea rows="3" cols="40" placeholder="ご意見・ご感想をご記入ください"></textarea>
       <div class="toiawase">
@@ -52,22 +45,4 @@
     </div>
   </body>
 </html>
-<script>
-$(function(){
-// 設定
-var $width =640; // 横幅
-var $height =300; // 高さ
-var $interval = 3000; // 切り替わりの間隔（ミリ秒）
-var $fade_speed = 1000; // フェード処理の早さ（ミリ秒）
-$("#slide ul li").css({"position":"relative","overflow":"hidden","width":$width,"height":$height});
-$("#slide ul li").hide().css({"position":"absolute","top":0,"left":0});
-$("#slide ul li:first").addClass("active").show();
-setInterval(function(){
-var $active = $("#slide ul li.active");
-var $next = $active.next("li").length?$active.next("li"):$("#slide ul li:first");
-$active.fadeOut($fade_speed).removeClass("active");
-$next.fadeIn($fade_speed).addClass("active");
-},$interval);
-});
 
-</script>
