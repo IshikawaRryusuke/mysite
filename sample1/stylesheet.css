@@ -23,6 +23,14 @@ body {
   padding: 120px;
   margin: 0 auto;
 }
+header {
+  height: 65px;
+  width: 100%;
+  background-color: glay;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 .header-right {
   float: right;
 }
