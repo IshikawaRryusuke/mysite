@@ -1,0 +1,117 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+.top {
+  padding: 180px 0 100px 0;
+  background-image: url(https://d1f5hsy4d47upe.cloudfront.net/6e/6e748a6a068438e7662bfc0b1f90a0fe_t.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 120px;
+  margin: 0 auto;
+}
+.header-right {
+  float: right;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: blue;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+ h1 {
+   padding: 10px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+h2 {
+  padding: 10px;
+  opacity: 0.7;
+}
+h3 {
+  padding: 10px;
+  opacity: 0.7;
+}
+p {
+  opacity: 0.7;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.fcb {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twt {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.syumi {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  background-image: url(https://img.olympicchannel.com/images/image/private/t_16-9_760/primary/y3jip74wrr5qqv4wfp6k);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.slide {
+  width:640px;
+  height:300px;
+  margin:0 auto;
+  position:relative;
+}
+
+.slide img {
+  position:absolute;
+  left:0;
+  top:0;
+}
