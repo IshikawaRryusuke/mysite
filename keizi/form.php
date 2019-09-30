@@ -1,12 +1,11 @@
 <?php
-define( "FILE_DIR", "images/test/"); #追加
-// $isNameと$isContentが存在するとき
+define( "FILE_DIR", "images/test/"); 
 if(isset($isName, $isContent)){
-  // 名前が空のとき
+
   if(!$isName){
     print '名前が入力されていません。<br>';
   }
-  // 内容が空のとき
+
   if(!$isContent){
     print '内容が入力されていません。<br><br>';
   }
@@ -20,11 +19,11 @@ if(isset($isName, $isContent)){
   <div class="button-panel">
       <input type="submit" value="送信">
     </div>
-  <div class="element_wrap">　<!--追加-->
+  <div class="element_wrap">　
 		<label>
 		<input type="file" name="attachment_file">
         </label>
-	</div> <!--追加-->
+	</div> 
 </form>
 <a href="Main.php">戻る</a>
 
@@ -36,7 +35,7 @@ if(isset($isName, $isContent)){
 }
 .button-panel input {
   background: #FF66FF;
-  border-radius: 7px;/*角丸に*/
+  border-radius: 7px;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -54,10 +53,10 @@ if(isset($isName, $isContent)){
   background-color:#CC3399;
 }
 textarea {
-        border:  solid #CC3399;  /* 枠線 */
-    border-radius: 0.67em;   /* 角丸 */
-              /* 内側の余白量 */
-    background-color: snow;  /* 背景色 */
+        border:  solid #CC3399;  
+    border-radius: 0.67em;   
+              
+    background-color: snow; 
          
     }
 .name{
