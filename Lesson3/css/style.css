@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* 全体のスタイル */
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+section{
+  padding:60px 0;
+}
+/* headerのスタイル */
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  line-height: 60px;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-nav{
+  display: flex;
+}
+
+.header-nav li:not(:last-child){
+  margin-right: 30px;
+  }
+
+  .header-nav a:hover{
+    color: lightgreen;
+    transition: .4s;
+  }
+
+  /*eyecatchのスタイル*/
+.eyecatch{
+  height:600px;
+  background-image: url(../img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.eyecatch p{
+  /*上から半分、下から半分*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+  /*pタグの大きさの半分だけ左上にずらす*/
+  transform: translate(-50%,-50%);
+}
+
+/*newsのスタイル*/
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+#news{
+  display: flex;
+  justify-content: space-around;
+}
+
+#news li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+#news a{
+  margin-left: 20px;
+}
+
+#news a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* interviewのスタイル */
+#interview{
+  background-image: url(../img/bg2.jpg);
+  padding: 50px 0;
+}
+
+.more{
+  background-color:rgba(255, 255, 255, 0.8);
+  border: 2px solid #000;
+  width: 600px;
+  margin: 0 auto;
+  padding:40px;
+}
+
+.interview-rink p{
+  margin: 30px 0;
+  text-align: center;
+}
+
+.more{
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  padding: 10px 0;
+  border: 1px solid lightgreen;
+  text-align: center;
+  background-color: white;
+  color: lightgreen;
+  transition: .2s;
+}
+
+.more:hover{
+  background-color: lightgreen;
+  color: white;
+  transition: .4s;
+}
+
+/*businessのスタイル*/
+.cat-wrap{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.business-cat{
+  width: 200px;
+  padding: 20px;
+  background-color: #eee;
+  box-shadow: 10px 10px 10px #aaa;
+}
+
+.business-cat img{
+  width: 100%;
+}
+
+.business-cat h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px 0 30px;
+}
+
+
+
+/* company&recruit */
+.info{
+  display: flex;
+}
+
+.info > section{
+  width: 50%;
+  height: 300px;
+  padding:0;
+  position: relative;
+}
+
+#company{
+  background-image: url(../img/bg4.jpg);
+  background-size: cover;
+}
+
+#recrute{
+  background-image: url(../img/bg5.jpg);
+  background-size: cover;
+}
+
+.company-wrap{
+  background:rgba(0, 0, 255, 0.1);
+  height: 300px;
+}
+.recrute-wrap{
+  background:rgba(255, 0, 0, 0.1);
+  height: 300px;
+}
+
+.info h2{
+  text-align: left;
+}
+.info a{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+/* accessのスタイル */
+#access{
+  background-color: #eee;
+}
+
+.access-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.address th{
+  width: 100px;
+}
+
+.map{
+  margin-right: 20px;
+}
+
+.address{
+  margin-left: 20px;
+}
+
+
+/* footerのスタイル */
+footer{
+  padding:30px 0;
+}
+
+h3{
+  text-align: center;
+}
