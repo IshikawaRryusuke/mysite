@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容室Sakura</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="top-wrapper">
+      <div class="title">
+        <h2>Sakura Island</h2>
+        <p>予約はグーグルカレンダーに書き込んでください</p>
+      </div>
+      <div id="use" class="yoyaku">
+        <a href="#">予約はこちら</a>
+      </div>
+    </div>
+    <div class="dai">
+      <h2>googleカレンダーの使い方</h2>
+    </div>
+    <main>
+      <p>「1日の13～14時に予定を入れる」という例でご紹介します。<br>1:ブラウザを起動しGoogleカレンダーを開いて予定を登録したい日にちまたは時間帯をクリック。<br>ここでは、赤枠の部分をクリックします。</p>
+      <img src="https://next.rikunabi.com/journal/wp-content/uploads/2018/04/1-1-1-1024x443.jpg"/>
+      <p>2:下記のような予定登録画面が開きます。「A社訪問」などと予定を入れ、「保存」をクリックします。</p>
+      <img src="https://next.rikunabi.com/journal/wp-content/uploads/2018/04/1-2-1-1024x436.jpg"/>
+      <p>3:予定が作成され、「予定を保存しました」と下の方に表示されれば予定の登録は完了です。</p>
+      <img src="https://next.rikunabi.com/journal/wp-content/uploads/2018/04/1-3-1-1024x435.jpg"/>
+      <p>補足：1でダブルクリック、または3で保存された予定をクリックすると、下のような画面が表示され、<br>より詳細な情報を入力することができます。<br>例えば、予定が開催される場所や、通知を何分前にするかなどです。</p>
+      <img src="https://next.rikunabi.com/journal/wp-content/uploads/2018/04/1-4-1-1024x438.jpg"/>
+    </main>
+    <div class="dai">
+      <h2>マイカレンダーを削除する</h2>
+    </div>
+    <main>
+
+      <p>Googleカレンダーの画面右上にある「設定メニュー」（歯車マーク）をクリックして「設定」を選択。<br>画面左側に表示されるマイカレンダーの一覧から削除したいカレンダーをクリックして「カレンダーの削除」をクリック。<br>右上の「戻る」（←マーク）をクリックしてカレンダーが表示されるページに戻ると<br>左側のマイカレンダーから該当のカレンダーが削除されていることが確認できます。</p>
+    </main>
+    <footer>
+      <h2>access</h2>
+      <div id="acc" class="tizu">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13595.372352647048!2d130.6412452324143!3d31.583350531001095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353ef572006aed97%3A0x9765ad14cf618e94!2z5qGc5bO2!5e0!3m2!1sja!2sjp!4v1570025188868!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="address">
+        <p>〒604-0925</p>
+        <p>鹿児島県鹿児島市桜島赤水町</p>
+        <p>TEL: <a href="tel:06000000000">060-0000-0000</a><p/>
+        <p>MAIL: <a href="mailto:ishikawaryusuke1@gmail.com">aiueo@gmail.com</a></p>
+      </div>
+      <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/ishikawa_ry?ref_src=twsrc%5Etfw">Tweets by ishikawa_ry</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </footer>
+    <div class="tag">
+      <a href="#">TOP</a>
+      <a href="#use">カレンダー</a>
+      <a href="#acc">access<a/>
+    </div>
+  </body>
+</html>
+<script>
+$(function(){
+
+   $('a[href^=#]').click(function() {
+
+      var speed = 400;
+
+      var href= $(this).attr("href");
+
+      var target = $(href == "#" || href == "" ? 'html' : href);
+
+      var position = target.offset().top;
+      
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
