@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js App</title>
+  </head>
+  <body>
+    <div id="app">
+      <button  v-on:click="archive()">断捨離</button>
+      <form @submit.prevent="addTodo">
+        <input v-model="message" type="text">
+        <button type='submit'>追加</button>
+      </form>
+      <div v-for="(item, index) in todos" v-bind:key="index">
+          <input type="checkbox" v-bind:value="index" :checked="item.state" v-on:click="changeState(index)"/>{{ item.name }}
+          <button v-on:click="deleteTodo(index)">削除する</button>
+        <br>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
