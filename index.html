@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>株式会社YaY</title>
+  <meta name="descpription" content="株式会社YaYの会社ホームページです。">
+  <meta name="keywords" content="株式会社YaY,YaY inc.,sheep,土屋 皇,">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <img src="https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg"/>
+  <img src="https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg"/>
+  <img src="https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg"/>
+  <img src="https://www.pakutaso.com/shared/img/thumb/HIRO95_yuubaenokage_TP_V.jpg"/>
+  <header>
+    <h1>アニメーション</h1>
+    <p id="scroll">スクロール値：<span>0</span></p>
+    <p id="wh">ウィンドウの高さ：<span>0</span></p>
+  </header>
+ <div class="box">
+  <p>フェードインさせるコンテンツ</p>
+   <p class="box_pos">top:<span>0</span></p>
+ </div>
+
+ <div class="box">
+   <p>フェードインさせるコンテンツ</p>
+   <p class="box_pos">top:<span>0</span></p>
+  </div>
+
+  <div class="box">
+    <p>フェードインさせるコンテンツ</p>
+    <p class="box_pos">top:<span>0</span></p>
+  </div>
+
+  <div class="box">
+    <p>フェードインさせるコンテンツ</p>
+    <p class="box_pos">top:<span>0</span></p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
+
+<style>
+body,
+html{
+
+  paddgin:0;
+  margin:0;
+}
+
+header{
+  position:fixed;
+  display:block;
+  top:0;
+  left:0;
+  border-bottom:1px solid #333;
+  width:100%;
+  background-color:#333;
+  color:#fff;
+  z-index:10;
+}
+
+header p{
+  font-size:12px;
+}
+h1{
+  font-size:16px;
+}
+.box{
+  width:50%;
+  margin:30% 5% 5% 5%;
+  text-align:center;
+  background-color:#ffff00;
+  padding:5%;
+  border:1px solid #333;
+  transform:translateX(-50px);
+  opacity:0;
+  transition:opacity 1s,transform 0.5s;
+}
+
+.box:first-of-type{
+  margin:80% 5% 5% 5%;
+}
+.fadein{
+  opacity:1;
+  transform:translateX(0);
+}
+</style>
+
+<script>
+var window_h = $(window).height();
+$("#wh span").text(window_h);
+//スクロールイベント
+$(window).on("scroll", function() {
+  var scroll_top = $(window).scrollTop();
+  $("#scroll span").text(scroll_top);
+
+  $(".box").each(function() {
+    var elem_pos = $(this).offset().top;
+    $(this).find(".box_pos span").text(Math.floor(elem_pos));
+  　
+    //どのタイミングでフェードインさせるか
+    if (scroll_top >= elem_pos - window_h+200) {
+      $(this).addClass("fadein");
+    } else {
+      $(this).removeClass("fadein");
+    }
+  });
+});
+</script>
