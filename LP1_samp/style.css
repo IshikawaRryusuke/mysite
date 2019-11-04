@@ -1,0 +1,186 @@
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+/*img {
+  position:relative;
+  left: 5%;
+}*/
+
+.sp {
+  display: none;
+}
+.pc {
+  display: block;
+}
+.qr {
+  position: relative;
+  left: 15%;
+}
+.qw {
+  position: relative;
+  left: 23%;
+}
+.botton {
+  text-align: center;
+}
+.dai {
+  font-size: 25px;
+  font-family: 'arial black';
+}
+.botton img:hover {
+  opacity: 0.7;
+}
+.set .qs {
+
+  float: right;
+}
+.set h2 {
+  font-family: 'arial black';
+}
+.set {
+  position: relative;
+  left: 16%;
+  font-size: 1.1em;
+
+  float: left;
+}
+.setu {
+  position: relative;
+  left: 16%;
+  font-size: 1.1em;
+}
+.touroku {
+  background-color: #99FF33;
+  margin: 70px;
+  color: white;
+  font-size: 1.9em;
+  padding-bottom: 30px;
+}
+.paso {
+  text-align: center;
+}
+.touroku p {
+  font-family: 'arial black';
+
+}
+.qq {
+  display: inline;
+  margin-left: 260px;
+}
+.aaa img {
+  display: inline;
+  position: relative;
+  left: 320px;
+  top: 30px;
+}
+.aaa h3 {
+  display: inline;
+  position: relative;
+  left: 700px;
+}
+
+.kousi {
+  color: #FF6928;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.9em;
+  font-family: 'arial black';
+  text-align: center;
+}
+.sidou {
+  background-color: #FFA500;
+  color: white;
+  padding: 30px;
+  font-size: 2.9em;
+  font-family: 'arial black';
+  text-align: center;
+  margin: 70px;
+}
+
+@media all and (max-width: 670px) {
+  img {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .dai {
+    font-size: 10px;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 15px;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  .botton img {
+    width: 50%;
+  }
+  .touroku {
+    width: 100%;
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .qq {
+    display: inline;
+    margin-left: 60px;
+    font-size: 0.9em;
+  }
+  .aaa img {
+    width: 50px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+  }
+  .aaa h3 {
+    display: inline;
+    position: relative;
+    left: 185px;
+  }
+  .qr {
+    position: relative;
+    left: 0;
+  }
+  .qw {
+    position: relative;
+    left: 0;
+  }
+  .kousi {
+    font-size: 1.4em;
+  }
+  .setu {
+    position: relative;
+    left: 2px;
+    font-size: 1px;
+  }
+  .set {
+    position: relative;
+    left: 3px;
+    font-size: 1px;
+  }
+  .sidou {
+    width: 84%;
+    margin: 0;
+    font-size: 1.6em;
+    position: relative;
+    left: 0;
+    margin:0;
+    padding-top: 20px;
+    background-size: 100%;
+  }
+  .sp {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .set .qs {
+    float: right;
+    width: 100px;
+    height: 110px;
+  }
+}
