@@ -1,0 +1,614 @@
+/*
+ サンプル
+*/
+/* IE */
+@font-face {
+font-family: 'あずきフォント';
+src: url(azukifont121/azuki.ttf);
+}
+/* Firefox, Opera, Safari */
+@font-face {
+font-family: 'あずきフォント';
+src: url(azukifont121/azuki.ttf) format(”truetype”);
+}
+.sp {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  position: relative;
+  left: -1px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  width: 100%;
+}
+.title {
+  background-color: #e7bb6f;
+}
+header {
+  display: flex;
+  background-color: #febd45;
+}
+
+a img {
+ transition: all 0.5s;
+ position: relative;
+ left: 10%;
+}
+a:hover img {
+ opacity: 0.7;
+}
+/*上部のお問い合わせフォーム*/
+.est_title1 img {
+  width: 15%;
+  height: 90px;
+  transform: rotate( -30deg );
+  position: relative;
+  top: 15px;
+  left: 30px;
+}
+.button img {
+  width: 70%;
+  position: relative;
+  left: 90px;
+  top: -10px;
+}
+.nyr1 {
+  padding-left: 250px;
+  position: relative;
+  top: -50px;
+  font-size: 0.9em;
+
+}
+.est_title1 {
+  display: flex;
+}
+
+.app_form {
+  position: relative;
+  top: -370px;
+}
+.app_form h2 {
+  position: relative;
+  left: 65%;
+  width: 35%;
+  font-family: 'arial black';
+  font-size: 1.5em;
+}
+.est_form {
+  background-color: #fabb22;
+  width: 35%;
+  height: 490px;
+  border-radius: 40px;
+  position: relative;
+  left: 62%;
+}
+.est_form strong {
+  font-size: 1.3em;
+  color: white;
+  font-family: 'arial black';
+  padding-left: 50px;
+}
+.est_form p {
+  position:relative;
+  top: -5px;
+}
+.est_form h3 {
+  background-color: #fbff20;
+  width: 60%;
+  color: #f84a23;
+  font-family: 'arial black';
+  position: relative;
+  left: 28%;
+  top: -60px;
+  font-size: 0.8em;
+}
+.est_input {
+  background-color: white;
+  width: 90%;
+  height: 350px;
+  position: relative;
+  left: 30px;
+  top: -50px;
+  font-size: 0.9em;
+}
+.est_input div {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.est_input select {
+  background-color: #fccf74;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  padding-left: 10px;
+  font-size: 93%;
+  line-height: 1.1em;
+  border-radius: 5px;
+  border: none;
+  background-image: url(img/arrow1.png);
+  background-repeat: no-repeat;
+  background-size: 22px 20px;
+  background-position: right 10px center;
+  float: right;
+  margin-right: 10px;
+  width: 140px;
+  height: 20px;
+}
+
+
+.est_input input {
+  width: 140px;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  background-color: #fccf74;
+  border: none;
+}
+
+/*header*/
+.right {
+  display: flex;
+  position: relative;
+  left: 130px;
+  font-size: 1.3em;
+}
+.right strong {
+  color: red;
+}
+.right a {
+  font-size: 2.2em;
+}
+
+.left {
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+.left p {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.right p {
+  position: relative;
+  left: 120px;
+}
+.toSite {
+  background-color: #fd8919;
+  width: 100%;
+  padding: 20px;
+  font-size: 2.0em;
+  font-family: 'arial black';
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+.toSite1 {
+  background-color: #fa9a2a;
+  padding: 20px;
+  position: relative;
+  top: -30px;
+  text-align: center;
+  font-size: 1.9em;
+
+}
+.title p {
+  font-size: 1.9em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.top {
+  background-image:url("img/back.png");
+  opacity: 0.8;
+}
+.top h1 {
+  font-family: 'あずきフォント';
+  padding-left: 90px;
+  position: relative;
+  top: 130px;
+}
+
+.complain {
+  padding-left: 90px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 130px;
+}
+.comp {
+  margin-left: 10px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.logo1 {
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+}
+.take {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+/*外壁塗装のトラブルのブロック*/
+.trouble {
+  margin-left: 20%;
+}
+.trouble_exm {
+  display: flex;
+}
+
+.trouble_exm h3 {
+  margin-left: 40px;
+  position: relative;
+  top: 110px;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.trb p {
+  color:#2aab28;
+  font-family: 'arial black';
+  font-size: 1.5em;
+  position: relative;
+  top: 20px;
+}
+.trb3 {
+  position: relative;
+  left: 22px;
+}
+.trb img {
+  position: relative;
+  top: 15px;
+}
+
+.trb_red {
+  color: red;
+  font-weight: 400;
+}
+
+/*外壁塗装の窓口のブロック*/
+.tosou {
+  text-align: center;
+  font-size: 2.4em;
+  font-family: 'arial black';
+}
+
+.orange {
+  color: orange;
+}
+.green {
+  color: green;
+}
+.reliefs {
+  display: flex;
+}
+.relief {
+  position: relative;
+  left: 85px;
+  margin-left: 90px;
+}
+.relief h3 {
+  font-size: 0.8em;
+}
+.ans {
+  position: relative;
+  left: 55px;
+}
+.relief p {
+  color: #fd772d;
+  font-family: 'arial black';
+  font-size: 1.4em;
+  position: relative;
+  left: 30px;
+}
+/*raputure1のブロック*/
+.rapture1 {
+  background-color: #cbcbcb;
+  width: 100%;
+  height: 1044px;
+  position: relative;
+  top: -30px;
+}
+.rap {
+  width: 60%;
+  background-color: white;
+  position: relative;
+  left: 20%;
+}
+.rap img {
+  width: 100%;
+}
+.rap p {
+  position: relative;
+  left: 10px;
+}
+.huto {
+  font-family: 'arial black';
+  color: black;
+}
+.red {
+  color: red;
+  background-color: #fffc3b;
+}
+/* 塗装工事の不安やお悩みを全て解決のブロック*/
+.anxiety {
+  border: solid 5px #40af13;
+  border-radius: 45px;
+  width: 77%;
+  height: 400px;
+  background-color: #baebb6;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  font-family: 'arial black';
+}
+.anx_detail {
+  border: solid 1px;
+  border-radius: 45px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.anxiety1 {
+  border: solid 5px #40af13;
+  border-radius: 45px;
+  width: 37%;
+  height: 500px;
+  background-color: #baebb6;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  font-family: 'arial black';
+}
+.face1 {
+  width: 8%;
+  position: relative;
+  left: 150px;
+  top: 90px;
+}
+.anx {
+  position: relative;
+  left: 140px;
+}
+.anc1_detalail {
+  border: solid 1px;
+  border-radius: 45px;
+  background-color: white;
+  height: 150px;
+}
+
+.anxiety2 {
+  border: solid 5px #2dab1f;
+  border-radius: 45px;
+  width: 37%;
+  background-color: #baebb6;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  padding-bottom: 90px;
+  font-family: 'arial black';
+}
+.anc2_detalail1 {
+  border: solid 1px;
+  border-radius: 45px;
+  background-color: white;
+  height: 150px;
+}
+.text {
+  position: relative;
+  left: 100px;
+  top: -35px;
+}
+.face {
+  position: relative;
+  top: 70px;
+  left: -90px;
+  width: 15%;
+}
+
+.text img {
+  position: relative;
+  left: -75px;
+  margin-left: 10px;
+}
+.text p {
+  position: relative;
+  left: 30px;
+  top: -15px;
+  font-size: 1.6em;
+}
+.market_price {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 410px;
+}
+.market_price p {
+  font-size: 2.5em;
+  font-family: 'arial black';
+  color: #fc474a;
+  letter-spacing: 5px;
+}
+strong {
+  color: #c5a111;
+}
+
+
+/*お客様の声のブロック*/
+.customers {
+  position: relative;
+  top: 70px;
+}
+.cst_title {
+  position: relative;
+  left: 35%;
+  margin-bottom: 60px;
+}
+.cust_voice {
+  border: solid 5px #2dab1f;
+  border-radius: 45px;
+  width: 77%;
+  height: 600px;
+  position: relative;
+  left: 10%;
+  margin-bottom: 30px;
+}
+.cust_voice img {
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+
+/*お見積もりのブロック*/
+.perform {
+  display: flex;
+  /*position: relative;
+  left: 130px;*/
+
+  margin-left: 140px;
+}
+.result {
+  /*position: relative;
+  left: 140px;*/
+
+  margin-left: 140px;
+}
+.result img {
+  position: relative;
+  top: 30px;
+}
+.result p {
+  font-size: 1.3em;
+}
+/*申込フォームのブロック*/
+.est_title img {
+  width: 18%;
+  transform: rotate( -30deg );
+  position: relative;
+  top: 35px;
+  left: 40px;
+}
+.nyr {
+  padding-left: 430px;
+  position: relative;
+  top: -80px;
+  font-size: 1.4em;
+
+}
+.est_title {
+  display: flex;
+}
+.app_form2 {
+  position: relative;
+  top: 90px;
+}
+.app_form2 h1 {
+  text-align: center;
+  font-family: 'arial black';
+}
+.est_form2 {
+  background-color: #fabb22;
+  width: 60%;
+  height: 950px;
+  border-radius: 40px;
+  position: relative;
+  left: 25%;
+}
+.est_form2 strong {
+  font-size: 2.5em;
+  color: white;
+  font-family: 'arial black';
+  padding-left: 50px;
+}
+.est_form2 p {
+  position:relative;
+  top: 30px;
+}
+.est_form2 h3 {
+  background-color: #fbff20;
+  width: 60%;
+  color: #f84a23;
+  font-family: 'arial black';
+  position: relative;
+  left: 28%;
+  top: -80px;
+  font-size: 1.3em;
+}
+.est_input2 {
+  background-color: white;
+  width: 90%;
+  height: 650px;
+  position: relative;
+  left: 50px;
+  top: -50px;
+  font-size: 1.4em;
+}
+.est_input2 div {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.est_input2 select {
+  background-color: #fccf74;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  margin-bottom: 20px;
+  padding: 7px 30px 7px 10px;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  border-radius: 5px;
+  border: none;
+  background-image: url(img/arrow1.png);
+  background-repeat: no-repeat;
+  background-size: 32px 30px;
+  background-position: right 10px center;
+  float: right;
+  margin-right: 10px;
+  width: 350px;
+  height: 40px;
+}
+
+.est_input2 input {
+  width: 350px;
+  height: 40px;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  background-color: #fccf74;
+}
+
+/*会社情報*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.4em;
+  position: relative;
+  top: 80px;
+}

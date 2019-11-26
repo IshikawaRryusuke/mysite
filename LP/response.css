@@ -1,0 +1,425 @@
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .pc {
+    display: none;
+  }
+  header {
+    width: 100%;
+  }
+  .sp a {
+    font-size: 0.9em;
+
+
+  }
+  .sp img {
+    width: 10%;
+    position: relative;
+    top: 40px;
+    left: -20px;
+  }
+  .denwa {
+    height: 20px;
+    width: 230%;
+    position: relative;
+    left:-40px;
+    top: -30px;
+
+  }
+  
+  .left {
+    font-size: 0.8em;
+    position: relative;
+    top: -5px;
+  }
+  .logo {
+    width: 10%;
+    height: 30px;
+    position: relative;
+    top: 10px;
+  }
+  .top h1{
+    font-size: 1.2em;
+    padding-left: 0;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  .sp {
+    display: block;
+  }
+  .complain {
+    padding-left: 0;
+    position: relative;
+    top: 10px;
+    left: 60px;
+  }
+  .comp {
+    width: 200px;
+    height: 30px;
+  }
+  .face1 {
+    width: 15%;
+  }
+  .take {
+    width: 40px;
+  }
+
+  .title {
+    font-size: 0.7em;
+  }
+  .titile p {
+    padding-top: -20px;
+  }
+  .text p {
+    font-size: 1.3em;
+    position: relative;
+    top: 40px;
+    left: -55px;
+  }
+  .text img {
+    position: relative;
+    top: 50px;
+  }
+  .rap {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .rap p {
+    font-size: 0.8em;
+    position: relative;
+    left: 0;
+  }
+  .rapture1 {
+    background-color: white;
+    height: 838px;
+  }
+  .toSite1 {
+    font-size: 0.9em;
+    padding: 5px;
+    position: relative;
+    top: -90px;
+  }
+  .gaiheki {
+    width: 90%;
+  }
+  .trouble {
+    margin-left: 15px;
+  }
+  .trouble_exm {
+    display: grid;
+
+  }
+  .trouble_exm h3 {
+    font-size: 0.7em;
+    margin-left: 0;
+    position: relative;
+    top: 10px;
+  }
+  .trb3 {
+    position: relative;
+    left: 0;
+  }
+  .tosou {
+    font-size: 1.5em;
+  }
+  .reliefs {
+    display: grid;
+  }
+
+  .relief {
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+  }
+  .market_price {
+    position: relative;
+    left: 0;
+    text-align: left;
+  }
+  .market_price p {
+    font-size: 1.2em;
+  }
+  .market_price img {
+    width: 90%;
+  }
+  .anxiety {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    font-size: 0.9em;
+    height: 450px;
+  }
+  .anxiety1 {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    font-size: 0.9em;
+    height: 450px;
+  }
+  .anxiety2 {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    font-size: 0.9em;
+    height: 450px;
+  }
+  .perform {
+    display: grid;
+    margin-left: 0;
+  }
+  .perform img {
+    width: 93%;
+  }
+  .result {
+    margin-left: 0;
+  }
+
+  .result p {
+    font-size: 0.9em;
+    position: relative;
+    top: 20px;
+  }
+  .cst_title {
+    position: relative;
+    left: 40px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  .cust_voice {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    height: 460px;
+  }
+  .cust_voice img {
+    position: relative;
+    left: 17px;
+    top: 10px;
+    width: 90%;
+  }
+  .toSite {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+/*お問い合わせ上部*/
+  .est_title1 img {
+    width: 16%;
+    height: 70px;
+    transform: rotate( -30deg );
+    position: relative;
+    top: 15px;
+    left: 30px;
+  }
+  .button img {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .nyr1 {
+    padding-left: 200px;
+    position: relative;
+    top: -15px;
+    font-size: 0.5em;
+
+  }
+  .est_title1 {
+    display: flex;
+  }
+  .app_form {
+    position: relative;
+    top: 0;
+  }
+  .app_form h2 {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    font-family: 'arial black';
+    font-size: 1.2em;
+  }
+  .est_form {
+    background-color: #fabb22;
+    width: 98%;
+    height: 540px;
+    border-radius: 40px;
+    position: relative;
+    left: 3px;
+  }
+  .est_form strong {
+    font-size: 0.9em;
+    color: white;
+    font-family: 'arial black';
+    padding-left: 50px;
+  }
+  .est_form p {
+    position:relative;
+    top: 10px;
+  }
+  .est_form h3 {
+    background-color: #fbff20;
+    width: 65%;
+    color: #f84a23;
+    font-family: 'arial black';
+    position: relative;
+    left: 28%;
+    top: -20px;
+    font-size: 0.5em;
+  }
+  .est_input {
+    background-color: white;
+    width: 90%;
+    height: 380px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: 0.9em;
+  }
+  .est_input div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .est_input select {
+    background-color: #fccf74;
+    -webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+    /*padding-top: -10;*/
+    font-size: 0.1em;
+    line-height: 0.5em;
+    border-radius: 1px;
+    border: none;
+    background-image: url(img/arrow1.png);
+    background-repeat: no-repeat;
+    background-size: 12px 10px;
+    background-position: right 10px center;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 20px;
+  }
+
+
+  .est_input input {
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    background-color: #fccf74;
+  }
+  /*お問い合わせ*/
+  .est_title img {
+    width: 16%;
+    height: 70px;
+    transform: rotate( -30deg );
+    position: relative;
+    top: 15px;
+    left: 30px;
+  }
+  a img {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .nyr {
+    padding-left: 200px;
+    position: relative;
+    top: -15px;
+    font-size: 0.5em;
+
+  }
+  .est_title {
+    display: flex;
+  }
+  .app_form2 h1 {
+    font-size: 1.2em;
+  }
+  .app_form2 {
+    position: relative;
+    top: 60px;
+  }
+  .app_form2 h2 {
+    position: relative;
+    left: 65%;
+    width: 35%;
+    font-family: 'arial black';
+    font-size: 1.5em;
+  }
+  .est_form2 {
+    background-color: #fabb22;
+    width: 98%;
+    height: 540px;
+    border-radius: 40px;
+    position: relative;
+    left: 3px;
+  }
+  .est_form2 strong {
+    font-size: 0.9em;
+    color: white;
+    font-family: 'arial black';
+    padding-left: 50px;
+  }
+  .est_form2 p {
+    position:relative;
+    top: 10px;
+  }
+  .est_form2 h3 {
+    background-color: #fbff20;
+    width: 65%;
+    color: #f84a23;
+    font-family: 'arial black';
+    position: relative;
+    left: 28%;
+    top: -20px;
+    font-size: 0.5em;
+  }
+  .est_input2 {
+    background-color: white;
+    width: 90%;
+    height: 380px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: 0.9em;
+  }
+  .est_input2 div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .est_input2 select {
+    background-color: #fccf74;
+    -webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+    /*padding-top: -10;*/
+    font-size: 0.1em;
+    line-height: 0.5em;
+    border-radius: 1px;
+    border: none;
+    background-image: url(img/arrow1.png);
+    background-repeat: no-repeat;
+    background-size: 12px 10px;
+    background-position: right 10px center;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 20px;
+  }
+
+
+  .est_input2 input {
+    width: 100px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    background-color: #fccf74;
+  }
+  footer {
+    font-size: 0.9em;
+  }
+
+}
