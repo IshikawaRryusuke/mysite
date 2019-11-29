@@ -1,0 +1,291 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+
+.slide {
+  width:1440px;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+  left: 20px;
+}
+
+.slide img {
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.header-right {
+  float: center;
+  margin-right: -25px;
+}
+
+.header-right button {
+  line-height: 65px;
+  padding: 0 25px;
+  height: 180px;
+  width: 180px;
+  color: white;
+  display: block;
+  float: center;
+  transition: all 0.5s;
+  background-color: #FF3366;
+  border-radius: 50%;
+  font-size: 1.5em;
+}
+
+.header-right button:hover {
+  background-color: #CC99CC;
+  color: black;
+}
+.header {
+  position :fixed;
+  top: 500px;
+  left: 1250px;
+  z-index: 10;
+}
+footer {
+  padding-top: 940px;
+  padding-left: 90px;
+  /*background-image: url(https://www.miraiwhite.jp/img/section/inner-care/img-1.png);*/
+  background-size:cover;
+}
+footer img {
+  position: relative;
+  left: 90px;
+}
+
+footer button {
+  line-height: 65px;
+  width: 600px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: center;
+  transition: all 0.5s;
+  background-color: #FF3366;
+  position:relative;
+  left: 360px;
+  border-radius: 15px;
+  font-size: 2.5em;
+
+}
+
+footer button:hover {
+  background-color: #CC99CC;
+  color: black;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.container {
+  text-align: center;
+  max-width: 1170px;
+  width: 100%;
+  padding-bottom: 30%;
+  margin: 0 auto;
+}
+.container h2 {
+  color: #66CCFF;
+  padding-bottom: 30px;
+  font-size: 1.8em;
+}
+.container h3 {
+  padding-top: 20px;
+  font-size: 1.8em;
+}
+.cons h1 {
+  opacity: 0.7;
+}
+.cons h2 {
+  opacity: 0.7;
+}
+.text-name {
+  opacity: 0.7;
+}
+.text-contents {
+  width: 70%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.iken {
+  float: left;
+  width: 32%;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px #CCCCCC;
+  background-color: white;
+}
+.iken .title {
+  text-decoration: underline;
+  text-decoration-color: #999999;
+  font-size: 1.5em;
+  color: #66CCFF;
+}
+.sougou {
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #CCFFFF;
+  text-align: center;
+}
+.iken1 {
+  float: left;
+  width: 32%;
+  height: 385px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px #CCCCCC;
+  background-color: white;
+  position: relative;
+  left: 20px;
+}
+.iken1 .title {
+  text-decoration: underline;
+  text-decoration-color: #999999;
+  font-size: 1.5em;
+  color: #66CCFF;
+}
+.iken2 {
+  float: left;
+  width: 32%;
+  height: 385px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px #CCCCCC;
+  background-color: white;
+  position: relative;
+  left: 40px;
+}
+.iken2 .title {
+  text-decoration: underline;
+  text-decoration-color: #999999;
+  font-size: 1.5em;
+  color: #66CCFF;
+}
+.image {
+  position: relative;
+  top: 40px;
+}
+.image1 {
+  position: relative;
+  top: 79px;
+}
+.image2 {
+  position: relative;
+  top: 40px;
+}
+
+.fot2 {
+  padding-top: 40px;
+  padding-left: 90px;
+  /*background-image: url(https://www.miraiwhite.jp/img/section/inner-care/img-1.png);*/
+  background-size:cover;
+}
+.fot2 img {
+  position: relative;
+  left: 90px;
+}
+
+.fot2 button {
+  line-height: 65px;
+  width: 600px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: center;
+  transition: all 0.5s;
+  background-color: #FF3366;
+  position:relative;
+  left: 360px;
+  border-radius: 15px;
+  font-size: 2.5em;
+
+}
+
+.fot2 button:hover {
+  background-color: #CC99CC;
+  color: black;
+}
+
+.fot2 p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.qa {
+  padding-top: 20px;
+  font-size: 30px;
+}
+.qa img {
+  position: relative;
+  left: 250px;
+}
+.box {
+  width: 80%;
+  position: relative;
+  left: 120px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px #CCCCCC;
+}
+summary {
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 50px;
+}
+summary:hover {
+  color: #B8860B;
+}
+details {
+  height: 10px;
+ margin-bottom: 50px;
+  transition: .5s;
+  padding-bottom: 40px;
+}
+
+details[open] {
+  height: 60px;
+}
+details p {
+  padding: 10px;
+  margin: 0;
+  background-color: #FDF5E6;
+  opacity: 0.7;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.buy {
+  text-align: center;
+  background-color: #DCDCDC;
+}
+
+.pay {
+  text-align: center;
+  padding: 90px;
+}
+.pay h1 {
+  color: #D2B48C;
+}
+.pay img {
+  width: 496px;
+  height: 65px;
+}
+
+.low {
+  text-align: center;
+}
+.Copyright {
+  opacity: 0.8;
+}

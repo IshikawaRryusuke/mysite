@@ -62,7 +62,7 @@ section{
 
 .service-pic{
   width: 70%;
-  height: 65%;
+  height: 500px;
 }
 
 .service-coment{
@@ -132,13 +132,13 @@ span{
 
 /*---------company-------*/
 
-table{
+.comp{
   padding:0 20px;
   width: 50%;
   text-align: center;
 }
 
-td{
+.comp td{
   font-size: 14px;
   padding: 24px;
 }
@@ -166,6 +166,31 @@ footer{
 
 .footer{
   color: white;
+}
+
+.port{
+  border-collapse:separate;
+  border-spacing: 5px;
+  width: 70%;
+  position: relative;
+  left: 160px;
+}
+
+.port th,table td{
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.port th{
+  background-color: #c79852;
+  color: white;
+  border:solid 1px #927141;
+}
+
+.port td{
+  background-color: #e4d4bc;
+  border:solid 1px #af9d85;
 }
 
 /*------レスポンシブ---------*/
@@ -203,8 +228,13 @@ footer{
     margin-left: 20%;
   }
 
-  table{
+  .comp{
     width: 70%;
+  }
+  .port {
+    width: 100%;
+    position: relative;
+    left: 0;
   }
 
 }
@@ -213,6 +243,10 @@ footer{
 
   html{
     margin: 0px;
+  }
+
+  .logo{
+    margin-left: 20px;
   }
 
   #top{
@@ -228,12 +262,38 @@ footer{
     margin-right: 0;
   }
 
+  .service-pic{
+    width: 90%;
+    height: 300px;
+  }
+
   .personal-img{
     margin-left: 10%;
   }
 
-  table{
+  .comp{
     width: 85%;
   }
-
+  .port {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z
