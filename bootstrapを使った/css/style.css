@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #36b236;
+  position: fixed;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+section {
+  padding: 180px 0 100px 0;
+  text-align: center;
+  font-size: 2.3em;
+  color: white;
+  font-weight: bold;
+
+}
+.btn-sec button {
+  color: white;
+  font-weight: bold;
+  border-width: 3px;
+  height: 60px;
+  margin-right: 20px;
+  font-size: 0.7em;
+}
+.service {
+  margin-top: 30px;
+}
+#popup-background{
+    position:fixed;     /* 位置の固定 */
+    top: 0;             /* 表示位置 */
+    left: 0;            /* 表示位置 */
+    height: 100%;       /* 画面全体に表示 */
+    width: 100%;        /* 画面全体に表示 */
+    background:#000;    /* 背景色 */
+    opacity: 0.60;      /* 透明度 */
+    margin: 0;          /* 余白の削除 */
+    padding: 0;         /* 余白の削除 */
+    z-index:1000;       /* 要素のz座標 */
+}
+#popup-item{
+    position:fixed;     /* 位置の固定 */
+    top: 50%;           /* 表示位置(真ん中に表示) */
+    left: 50%;          /* 表示位置(真ん中に表示) */
+    margin: 0;          /* 余白の削除 */
+    padding: 0;         /* 余白の削除 */
+    z-index:1001;       /* 要素のz座標 */
+}
+h1 {
+  color: #d959ff;
+  text-align: center;
+}
+.about p {
+
+  text-align: center;
+  font-size: 0.5em;
+  padding-top: 20px;
+}
+form {
+  width: 80%;
+  padding-left: 320px;
+  padding-bottom: 20px;
+}
+blockquote {
+  margin-left: 32%;
+}
+.tik {
+  background-color: #2c2c2c;
+  width: 50%;
+  margin-left: 25%;
+}
+.twt {
+  width: 50%;
+  margin-left: 25%;
+}
+.ytb {
+  width: 50%;
+  margin-left: 25%;
+}
+h2 {
+  color: red;
+  font-size: 2.0em;
+}

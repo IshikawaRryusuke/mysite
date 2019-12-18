@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Tosca</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand " href="/">Toscanelli</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <!-- この下の行に mr-auto クラスを付与するだけ -->
+      <!--<ul class="navbar-nav mr-auto">　
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>-->
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           SNS
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Tik Tok</a>
+           <a class="dropdown-item" href="#">Instagram</a>
+           <a class="dropdown-item" href="#">Youtube</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Mission</a>
+         </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Top</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<section style="background: linear-gradient(to right, #f00 0%, #f80 14.28%, #dd0 28.56%, #0d0 42.85%, #0dd 57.14%, #00f 71.42%, #e0e 85.71%, #f00 100%) 0% center / 200% auto;">
+  <p>TikTok aims to be one million followers!!</p>
+  <div class="btn-sec">
+    <button type="button" class="btn btn-outline-primary" onclick="window.open('https://www.instagram.com/tosca_2019/','_blank')"><i class="fab fa-instagram"></i></button>
+    <button type="button" class="btn btn-outline-secondary" onclick="window.open('https://twitter.com/sKOEDCM06R2iA4i','_blank')"><i class="fab fa-twitter"></i></button>
+    <button type="button" class="btn btn-outline-danger" onClick="window.open('https://www.youtube.com/channel/UCF-2w4XMzaBvyvOLb5P6FXA?view_as=subscriber','_blank')"><i class="fab fa-youtube"></i></button>
+  </div>
+  <div class="service">
+    <!-- 画面に表示する画像 -->
+    <a href="img/tiktok.png" class="popupimg">
+          <img src="img/tiktok.png"   />
+    </a>
+    <!-- ポップアップ用の背景とimg -->
+    <div id="popup-background">
+    </div>
+    <img id="popup-item" src="" />
+
+  </div>
+</section>
+<section class="about">
+  <div class="border-bottom">
+    <h1>Tik Tok</h1>
+  </div>
+  <div class="tik">
+    <p>
+      毎日２０時に偉人伝の投稿をしています<br />ぜひご覧ください!!<br />
+      <iframe width="340" height="700" src="https://www.tiktok.com/embed/6770983212400299266" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+      <a href="https://www.tiktok.com/@toskaneri?language=ja&sec_uid=MS4wLjABAAAAsPoGiVhjjKvEKIRvp6wWEiJQvQVH2n8uITVUn_Nz47EeBTAgBbHxBxgrAxkEuT98&u_code=d1l86762mjmf10&utm_source=twitter&app=tiktok&iid=6769454867046237954&utm_campaign=client_share&utm_medium=ios&tt_from=twitter&user_id=6594739122577080321&source=h5_t" target="_blank">My Tik Tok acount</a>
+    </p>
+  </div>
+  <div class="border-bottom">
+    <h1>Twitter</h1>
+  </div>
+  <div class="twt" style="background-color:#2fa1ff">
+    <p>撮影の裏側やネタの集め方などについて呟いています<br />
+      <a class="twitter-timeline" data-width="550" data-height="650" href="https://twitter.com/sKOEDCM06R2iA4i?ref_src=twsrc%5Etfw">Tweets by sKOEDCM06R2iA4i</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+  </div>
+  <div class="border-bottom">
+    <h1>Youtube</h1>
+  </div>
+  <div class="ytb">
+    <p style="background-color:red">
+      毎週土曜日２０時から生会議！！<br />データを元に反省点、次回のコンテンツなどについて戦略を語る！<br />
+      <iframe width="530" height="515" src="https://www.youtube.com/embed/YYq2Gyp7c1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+  </div>
+
+  <div class="border-bottom">
+    <h1>Mission</h1>
+  </div>
+  <h2>Aim 1 million people!!!</h2>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
