@@ -1,0 +1,218 @@
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.navbar {
+  background-color: #7de9e6;
+  position: fixed;z-index: 2;
+  width: 100%;
+  font-size: 1.1em;
+}
+li {
+  margin-left: 40px;
+}
+
+li:hover {
+  background-color: #7f7f7f;
+  color: #a0cdcb;
+  transition: 0.9s;
+}
+a {
+  color: white;
+}
+.dai {
+  padding: 100px;
+  color: #7de9e6;
+  text-align: center;
+}
+.yoko {
+  display: inline-block;
+  padding-right: 20px;
+}
+.sns {
+  background-color: #7a7a7a;
+  width: 170px;
+  height: 170px;
+}
+.fab {
+  font-size: 30px;
+  padding-top: 60px;
+  padding-left: 18px;
+}
+.sns a:hover{
+  color: white;
+}
+.dropdown-menu {
+  border: none;
+}
+.dropdown-item {
+  color: #57ead5;
+
+}
+.sample1 {
+	width:			185px;
+	height:			188px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;z-index:1;	/* 相対位置指定 */
+
+}
+.sample1 .caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#fff;
+}
+.sample1 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+
+.gaiyou {
+  background-color: #7de9e6;
+  color: white;
+  font-family: bold;
+  height: 200px;
+  width: 26%;
+  margin-left: 260px;
+  float: left;
+}
+.setu {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.gaiyou h2 {
+  font-size: 1.2em;
+  padding-top: 50px;
+  width: 90%;
+}
+.sinryou {
+  float: left;
+}
+.annai {
+  float: left;
+}
+.annai {
+  color: #7de9e6;
+  margin: 20px;
+}
+.ishi {
+  background-color: #979797;
+  width: 14%;
+  height: 190px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+}
+.ishi img {
+  padding: 20px;
+}
+
+.explain {
+  padding-top: 20px;
+  margin-left: 260px;
+}
+.explain p {
+  display: inline-block;
+  color: #7de9e6;
+  margin-left: 20px;
+  position: relative;
+  top: 40px;
+}
+.ozi {
+  position: relative;
+  left: 69%;
+  top: -190px;
+}
+.yoyaku {
+  color: #7de9e6;
+  width: 390px;
+}
+.far {
+  font-size: 130px;
+}
+.clock {
+  display: inline-block;
+  font-size: 1.2em;
+}
+.clock p {
+  margin-bottom: -2px;
+}
+.samp3 {
+  display: flex;
+  position: relative;
+  top: -360px;
+  left: 260px;
+  width: 900px;
+}
+.nyuin {
+  background-color: #7de9e6;
+  color: white;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+}
+.home1 {
+  height: 180px;
+  background-color: #939393;
+  width: 170px;
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 90px;
+
+}
+.toia {
+  height: 180px;
+  background-color: #939393;
+  width: 170px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.acss {
+  height: 180px;
+  background-color: #939393;
+  width: 170px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tel {
+  height: 180px;
+  background-color: #939393;
+  width: 170px;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.tel h3 {
+  font-size: 1.4em;
+  padding-top: 20px;
+}
+iframe {
+  margin-left: 20px;
+}
+.fot {
+  display: flex;
+  position: relative;
+  top: -340px;
+  left: 260px;
+  width: 900px;
+}
